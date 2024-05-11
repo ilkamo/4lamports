@@ -1,8 +1,8 @@
-## 4lamports
+## [4lamports](https://4lamports.vercel.app/)
 
 <img src="public/mylamports.jpg">
 
-**4lamports** is a tool for managing and optimizing your Solana wallet. It operates on the principle that each Token and NFT in your wallet occupies rentable space.
+**[4lamports](https://4lamports.vercel.app/)** is a tool for managing and optimizing your Solana wallet. It operates on the principle that each Token and NFT in your wallet occupies rentable space.
 
 Token balances and NFTs are stored on the Solana blockchain in accounts. Keeping this data on-chain takes up space, so Solana charges a rent fee of **~0.002 SOL** on accounts. This space can be reclaimed when the token balance reaches zero or when the NFT is transferred to a different wallet.
 
