@@ -9,7 +9,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "4lamports",
   description:
-    "Manage your Solana wallet. Find hidden SOL. Reedem payed rental fee for 0 balance token accounts.",
+    "Get SOL from burning unused tokens. Reedem payed rental fee for 0 balance token accounts.",
 };
 
 export default function RootLayout({
