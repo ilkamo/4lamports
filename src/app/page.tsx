@@ -13,14 +13,13 @@ export default function Home() {
         <Navbar />
         <main className="flex min-h-screen flex-col items-center justify-center pl-12 pr-12 pt-12 pb-24">
           <h3 className="text-3xl font-medium text-slate-800 mb-0 mt-20">
-            Find hidden{" "}
-            <span className="text-orange-500 font-semibold">SOL</span> in your
-            own wallet
+            Get <span className="text-orange-500 font-semibold">SOL</span> from
+            burning unused tokens
           </h3>
           <h4 className="text-2xl font-light text-slate-600 mb-8 mt-2">
-            Redeem paid rental fees{" "}
+            Redeem{" "}
             <span className="underline underline-offset-4 decoration-orange-400">
-              for 0 balance token accounts
+              paid rental fees
             </span>
             .
           </h4>
