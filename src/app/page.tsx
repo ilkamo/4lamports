@@ -12,20 +12,16 @@ export default function Home() {
       <WalletContextProvider>
         <Navbar />
         <main className="flex min-h-screen flex-col items-center justify-center pl-12 pr-12 pt-12 pb-24">
-          <h3 className="text-3xl font-medium text-slate-800 mb-0 mt-20">
+          <h3 className="text-2xl font-medium text-slate-800 mb-0 mt-20">
             Get <span className="text-orange-500 font-semibold">SOL</span> from
             burning unused tokens
           </h3>
           <h4 className="text-2xl font-light text-slate-600 mb-8 mt-2">
-            Redeem{" "}
-            <span className="underline underline-offset-4 decoration-orange-400">
-              paid rental fees
-            </span>
-            .
+            Redeem paid rental fees.
           </h4>
           <Image
             src={myLamports}
-            className="w-full max-w-96 rounded-md shadow-lg mb-8"
+            className="w-full max-w-80 rounded-md shadow-lg mb-8"
             alt="My Lamports"
           />
           <p className="text-md text-gray-600 mb-8 max-w-xl">
@@ -36,8 +32,23 @@ export default function Home() {
             transferred to a different wallet.
           </p>
           <Collector />
-          <Footer />
+          <p className="text-xs text-gray-600 mb-8 mt-8 max-w-xl">
+            With many scam services out there, we've taken extra steps to secure
+            your trust by obtaining{" "}
+            <span className="font-semibold">verification from Blowfish</span>.
+            Rest assured, 4lamports is a safe and reliable choice. For more
+            details on how this works check the{" "}
+            <a
+              href="https://www.bulbapp.io/p/508c77d4-dad1-4d3f-882d-de51f8579aa3/4lamports-find-hidden-sol-in-your-wallet"
+              target="_blank"
+              className="underline underline-offset-4 decoration-orange-400 hover:decoration-orange-500 hover:text-orange-500"
+            >
+              official post from the developers
+            </a>
+            .
+          </p>
         </main>
+        <Footer />
       </WalletContextProvider>
     </div>
   );
