@@ -33,8 +33,8 @@ export default function Home() {
           </p>
           <Collector />
           <p className="text-xs text-gray-600 mb-8 mt-8 max-w-xl">
-            With many scam services out there, we've taken extra steps to secure
-            your trust by obtaining{" "}
+            With many scam services out there, we&apos;ve taken extra steps to
+            secure your trust by obtaining{" "}
             <span className="font-semibold">verification from Blowfish</span>.
             Rest assured, 4lamports is a safe and reliable choice. For more
             details on how this works check the{" "}
