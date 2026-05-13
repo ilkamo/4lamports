@@ -9,7 +9,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "4lamports",
   description:
-    "Get SOL from burning unused tokens. Reedem payed rental fee for 0 balance token accounts.",
+    "Get SOL from burning unused tokens. Redeem paid rental fee for 0 balance token accounts.",
 };
 
 export default function RootLayout({
@@ -19,13 +19,18 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${inter.className} bg-gradient-to-b from-orange-50 to-slate-50`}
-      >
+      <body className={`${inter.className} bg-[#070711] text-white antialiased`}>
         <Toaster
           position="top-center"
           toastOptions={{
             duration: 5000,
+            style: {
+              background: "#0f0f1a",
+              color: "#fff",
+              border: "1px solid rgba(255,255,255,0.08)",
+              borderRadius: "12px",
+              fontSize: "14px",
+            },
           }}
         />
         {children}
