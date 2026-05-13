@@ -15,7 +15,7 @@ export default function Home() {
       <WalletContextProvider>
         <Navbar />
 
-        <main className="relative flex min-h-screen flex-col items-center justify-center px-6 pt-24 pb-28">
+        <main className="relative flex min-h-screen flex-col items-center justify-center px-6 pt-16 pb-28">
           {/* Badge */}
           <div className="mb-5 flex items-center gap-2 rounded-full border border-[#9945FF]/25 bg-[#9945FF]/10 px-4 py-1.5">
             <span className="h-1.5 w-1.5 rounded-full bg-[#14F195] animate-pulse" />
